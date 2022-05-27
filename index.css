@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("assets/fonts/Poppins-Medium.ttf");
+}
+.body {
+  width: 1900px;
+  height: 575px;
+  background-image: url("assets/images/Body_Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1100px;
+}
+.body_main-site {
+  padding: 117px 100px 100px 100px;
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 90px;
+  border-radius: 50px;
+  background-image: url("assets/images/Rectangle 1083.png");
+  background-repeat: none;
+  background-size: 110%;
+}
+.body_main-site_header_logo-image {
+  widows: 111px;
+  height: 26px;
+  margin-right: 60px;
+}
+.body_main-site_header_link {
+  font-family: Poppins-Medium;
+  text-decoration: none;
+  color: #262E5D;
+  font-size: 16px;
+  margin-left: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+}
+.body_main-site_header_input {
+  width: 180px;
+  height: 40px;
+  outline: none;
+  border: 0.0001px solid white;
+  border-radius: 100px;
+  -webkit-box-shadow: inset 2px 0px 20px #D9DBEC;
+          box-shadow: inset 2px 0px 20px #D9DBEC;
+  font-family: Poppins-Medium;
+  text-align: center;
+  margin-left: 500px;
+}
+.body_main-site_header_input::-webkit-input-placeholder {
+  text-align: center;
+  font-family: Poppins-Medium;
+}
+.body_main-site_header_input::-moz-placeholder {
+  text-align: center;
+  font-family: Poppins-Medium;
+}
+.body_main-site_header_input:-ms-input-placeholder {
+  text-align: center;
+  font-family: Poppins-Medium;
+}
+.body_main-site_header_input::-ms-input-placeholder {
+  text-align: center;
+  font-family: Poppins-Medium;
+}
+.body_main-site_header_input::placeholder {
+  text-align: center;
+  font-family: Poppins-Medium;
+}
+.body_main {
+  position: relative;
+}
+.body_main_image {
+  margin-left: 956px;
+  margin-bottom: 261px;
+  position: absolute;
+  top: -100px;
+  right: -101px;
+}
+.body_main_input {
+  width: 273px;
+  height: 54px;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  -webkit-box-shadow: inset 2px 0px 20px #D9DBEC;
+          box-shadow: inset 2px 0px 20px #D9DBEC;
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 117px;
+}
+.body_main_input_button {
+  border-radius: 100px;
+  width: 80px;
+  height: 54px;
+  border: none;
+  margin-left: 54px;
+  background-image: url("assets/images/Button_bg.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.body_main_input_button:active {
+  background-image: url("assets/images/Button_active_bg.png");
+}
+.body_main_input::-webkit-input-placeholder {
+  text-align: center;
+  color: #76768f;
+  font-size: 16px;
+  font-family: Poppins-Medium;
+}
+.body_main_input::-moz-placeholder {
+  text-align: center;
+  color: #76768f;
+  font-size: 16px;
+  font-family: Poppins-Medium;
+}
+.body_main_input:-ms-input-placeholder {
+  text-align: center;
+  color: #76768f;
+  font-size: 16px;
+  font-family: Poppins-Medium;
+}
+.body_main_input::-ms-input-placeholder {
+  text-align: center;
+  color: #76768f;
+  font-size: 16px;
+  font-family: Poppins-Medium;
+}
+.body_main_input::placeholder {
+  text-align: center;
+  color: #76768f;
+  font-size: 16px;
+  font-family: Poppins-Medium;
+}
+.body_main_text {
+  font-family: Poppins-Medium;
+  font-size: 24px;
+  color: #76768F;
+}
+.body_main_text span {
+  display: block;
+}
+.body_main_title {
+  font-family: Poppins-Bold;
+  font-size: 96px;
+  color: #262E5D;
+  margin-top: 103px;
+}
+.body_main_title span {
+  display: block;
+}
+.body_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.body_footer_text {
+  font-family: Poppins-Medium;
+  color: #76768F;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 24px;
+}
+.body_footer_img2 {
+  margin-left: 21px;
+}
+.body_footer_img3 {
+  margin-left: 21px;
+}
+.body_footer_img4 {
+  margin-left: 21px;
+}
